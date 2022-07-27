@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountCreated" xml:space="preserve">
+    <value>Acccount Succesfully Created.</value>
+  </data>
+  <data name="AccountCreationFailed" xml:space="preserve">
+    <value>Acccount Creation Failed!</value>
+  </data>
+  <data name="AccountNotConnectedWithGoogle" xml:space="preserve">
+    <value>Your account is not connected with any Google account!</value>
+  </data>
+  <data name="AddressLength" xml:space="preserve">
+    <value>Address can't exceed more than 200 characters.</value>
+  </data>
+  <data name="AdminRole" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="BlockedContactDoesNotExist" xml:space="preserve">
+    <value>No blocked contacts exist.</value>
+  </data>
+  <data name="BookingAdded" xml:space="preserve">
+    <value>Booking successfully added.</value>
+  </data>
+  <data name="BookingArchived" xml:space="preserve">
+    <value>Booking archived successfully.</value>
+  </data>
+  <data name="BookingArchiveFailed" xml:space="preserve">
+    <value>Booking could not be archived!</value>
+  </data>
+  <data name="BookingDeleted" xml:space="preserve">
+    <value>Booking successfully Deleted.</value>
+  </data>
+  <data name="BookingDeletedFromGoogleCalendar" xml:space="preserve">
+    <value>Booking Deleted from Google Calendar.</value>
+  </data>
+  <data name="BookingDeletionFailed" xml:space="preserve">
+    <value>Booking couldn't be Deleted!</value>
+  </data>
+  <data name="BookingDoesNotExist" xml:space="preserve">
+    <value>Booking does not exist.</value>
+  </data>
+  <data name="BookingFailed" xml:space="preserve">
+    <value>Booking could not be added!</value>
+  </data>
+  <data name="BookingNotCreatedDueToContactsLimit" xml:space="preserve">
+    <value>You can't add a booking because your contact's limit is breached.</value>
+  </data>
+  <data name="BookingNotFoundAgainstBusinessId" xml:space="preserve">
+    <value>No Bookings found for this Business.</value>
+  </data>
+  <data name="BookingNotRestored" xml:space="preserve">
+    <value>Booking couldn't be Restored!</value>
+  </data>
+  <data name="BookingNotUpdated" xml:space="preserve">
+    <value>Booking couldn't be updated.</value>
+  </data>
+  <data name="BookingRestored" xml:space="preserve">
+    <value>Booking successfully Restored.</value>
+  </data>
+  <data name="BookingsArchived" xml:space="preserve">
+    <value>Booking(s) successfully Archived.</value>
+  </data>
+  <data name="BookingsConfirmed" xml:space="preserve">
+    <value>Booking(s) successfully marked as Confirmed.</value>
+  </data>
+  <data name="BookingsDeleted" xml:space="preserve">
+    <value>Booking(s) successfully Deleted.</value>
+  </data>
+  <data name="BookingsLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To add more bookings, please upgrade your package.</value>
+  </data>
+  <data name="BookingUpdated" xml:space="preserve">
+    <value>Booking updated successfully.</value>
+  </data>
+  <data name="BookingUpdatedInGoogleCalendar" xml:space="preserve">
+    <value>Booking updated in Google Calendar.</value>
+  </data>
+  <data name="BulkArchiveContactsFailed" xml:space="preserve">
+    <value>Contacts could not be Archived!</value>
+  </data>
+  <data name="BulkArchiveContactsSuccessful" xml:space="preserve">
+    <value>All contacts Archived successfully.</value>
+  </data>
+  <data name="BulkBusinessUserDeleteFailed" xml:space="preserve">
+    <value>Users couldn't be deleted!</value>
+  </data>
+  <data name="BulkBusinessUserDeleteSuccessful" xml:space="preserve">
+    <value>All Users are successfully deleted.</value>
+  </data>
+  <data name="BulkContactGroupsDeleted" xml:space="preserve">
+    <value>Contacts Groups deleted successfully.</value>
+  </data>
+  <data name="BulkContactGroupsNotDeleted" xml:space="preserve">
+    <value>Contact Groups couldn't be deleted!</value>
+  </data>
+  <data name="BulkDeleteContactsFailed" xml:space="preserve">
+    <value>Contacts could not be deleted!</value>
+  </data>
+  <data name="BulkDeleteContactsSucessful" xml:space="preserve">
+    <value>Contacts succesfully deleted.</value>
+  </data>
+  <data name="BulkUserGroupsDeleted" xml:space="preserve">
+    <value>User Groups deleted successfylly.</value>
+  </data>
+  <data name="BulkUserGroupsNotDeleted" xml:space="preserve">
+    <value>User Group could not be deleted!</value>
+  </data>
+  <data name="BusinessAddressNotUpdated" xml:space="preserve">
+    <value>Business address could not be updated!</value>
+  </data>
+  <data name="BusinessAddressUpdated" xml:space="preserve">
+    <value>Business address updated successfully.</value>
+  </data>
+  <data name="BusinessContactCreated" xml:space="preserve">
+    <value>Business Contact created successfully.</value>
+  </data>
+  <data name="BusinessContactCreationFailed" xml:space="preserve">
+    <value>Business Contact couldn't be created!</value>
+  </data>
+  <data name="BusinessContactDeleted" xml:space="preserve">
+    <value>Business contact successfully deleted.</value>
+  </data>
+  <data name="BusinessContactDeletionFailed" xml:space="preserve">
+    <value>Business contact could not be deleted!</value>
+  </data>
+  <data name="BusinessContactNotUpdated" xml:space="preserve">
+    <value>Business contact could not be updated!</value>
+  </data>
+  <data name="BusinessContactUpdated" xml:space="preserve">
+    <value>Business contact updated successfully.</value>
+  </data>
+  <data name="BusinessCreated" xml:space="preserve">
+    <value>Business created successfully.</value>
+  </data>
+  <data name="BusinessCreationFailed" xml:space="preserve">
+    <value>Business could not be created!</value>
+  </data>
+  <data name="BusinessDeleted" xml:space="preserve">
+    <value>Business deleted successfully.</value>
+  </data>
+  <data name="BusinessDetailsNotUpdated" xml:space="preserve">
+    <value>Business details could not be updated!</value>
+  </data>
+  <data name="BusinessDetailsUpdated" xml:space="preserve">
+    <value>Business details updated successfully.</value>
+  </data>
+  <data name="BusinessEmailTemplateAdded" xml:space="preserve">
+    <value>Email template successfully created.</value>
+  </data>
+  <data name="BusinessEmailTemplateDeleted" xml:space="preserve">
+    <value>Email Template deleted.</value>
+  </data>
+  <data name="BusinessEmailTemplateDisabled" xml:space="preserve">
+    <value>Email Template disabled.</value>
+  </data>
+  <data name="BusinessEmailTemplateEnabled" xml:space="preserve">
+    <value>Email Template enabled.</value>
+  </data>
+  <data name="BusinessEmailTemplateNotAdded" xml:space="preserve">
+    <value>Couldn't add new email template!</value>
+  </data>
+  <data name="BusinessEmailTemplateNotDeleted" xml:space="preserve">
+    <value>Email Template could not be deleted!</value>
+  </data>
+  <data name="BusinessEmailTemplateNotDisabled" xml:space="preserve">
+    <value>Email Template could not be disabled!</value>
+  </data>
+  <data name="BusinessEmailTemplateNotEnabled" xml:space="preserve">
+    <value>Email Template could not be enabled!</value>
+  </data>
+  <data name="BusinessEmailTemplateNotFound" xml:space="preserve">
+    <value>Email Template does not exist!</value>
+  </data>
+  <data name="BusinessEmailTemplateNotUpdated" xml:space="preserve">
+    <value>Email Template couldn't be updated!</value>
+  </data>
+  <data name="BusinessEmailTemplatesNotFound" xml:space="preserve">
+    <value>There are no saved Business Email Templates!</value>
+  </data>
+  <data name="BusinessEmailTemplateUpdated" xml:space="preserve">
+    <value>Email Template updated successfully.</value>
+  </data>
+  <data name="BusinessLinked" xml:space="preserve">
+    <value>Business linked successfully.</value>
+  </data>
+  <data name="BusinessListed" xml:space="preserve">
+    <value>Business listed successfully.</value>
+  </data>
+  <data name="BusinessNameAlreadyExists" xml:space="preserve">
+    <value>This Business Name {{BUSINESS_NAME}} is already in use. Kindly choose a unique one for you.</value>
+  </data>
+  <data name="BusinessNameNotEmpty" xml:space="preserve">
+    <value>Business name can't be empty.</value>
+  </data>
+  <data name="BusinessNotDeleted" xml:space="preserve">
+    <value>Business could not be deleted!</value>
+  </data>
+  <data name="BusinessNotFound" xml:space="preserve">
+    <value>Business not found.</value>
+  </data>
+  <data name="BusinessNotLinked" xml:space="preserve">
+    <value>Business linking failed!</value>
+  </data>
+  <data name="BusinessNotListed" xml:space="preserve">
+    <value>Business listing failed!</value>
+  </data>
+  <data name="BusinessNotUpdated" xml:space="preserve">
+    <value>Business information could not be updated!</value>
+  </data>
+  <data name="BusinessProductCreated" xml:space="preserve">
+    <value>Business Product created successfully.</value>
+  </data>
+  <data name="BusinessProductDeleted" xml:space="preserve">
+    <value>Business Product deleted.</value>
+  </data>
+  <data name="BusinessProductDoesNotExist" xml:space="preserve">
+    <value>Business Product does not exist.</value>
+  </data>
+  <data name="BusinessProductNotCreated" xml:space="preserve">
+    <value>Business Product could not be created.</value>
+  </data>
+  <data name="BusinessProductNotDeleted" xml:space="preserve">
+    <value>Business Product could not be deleted!</value>
+  </data>
+  <data name="BusinessProductNotUpdated" xml:space="preserve">
+    <value>Business Product could not be updated!</value>
+  </data>
+  <data name="BusinessProductUpdated" xml:space="preserve">
+    <value>Business Product updated successfully.</value>
+  </data>
+  <data name="BusinessServiceCreated" xml:space="preserve">
+    <value>Business Service created successfully.</value>
+  </data>
+  <data name="BusinessServiceDeleted" xml:space="preserve">
+    <value>Business Service deleted successfully.</value>
+  </data>
+  <data name="BusinessServiceDoesNotExist" xml:space="preserve">
+    <value>Business Service does not exist.</value>
+  </data>
+  <data name="BusinessServiceNotCreated" xml:space="preserve">
+    <value>Business Service could not be created!</value>
+  </data>
+  <data name="BusinessServiceNotDeleted" xml:space="preserve">
+    <value>Business Service could not be deleted!</value>
+  </data>
+  <data name="BusinessServiceNotUnique" xml:space="preserve">
+    <value>You can't add a repeated service. Please choose a unique name.</value>
+  </data>
+  <data name="BusinessServiceNotUpdated" xml:space="preserve">
+    <value>Business Service could not be updated!</value>
+  </data>
+  <data name="BusinessServiceUpdated" xml:space="preserve">
+    <value>Business Service updated successfully.</value>
+  </data>
+  <data name="BusinessUpdated" xml:space="preserve">
+    <value>Business information updated successfully.</value>
+  </data>
+  <data name="BusinessUserAddedToGroup" xml:space="preserve">
+    <value>Business User successfully added to the Group(s).</value>
+  </data>
+  <data name="BusinessUserCreated" xml:space="preserve">
+    <value>Business User created successfully.</value>
+  </data>
+  <data name="BusinessUserDeleted" xml:space="preserve">
+    <value>Business User deleted.</value>
+  </data>
+  <data name="BusinessUserDoesNotExist" xml:space="preserve">
+    <value>Business User does not exist.</value>
+  </data>
+  <data name="BusinessUserGroupCreated" xml:space="preserve">
+    <value>Business User Group successfully created.</value>
+  </data>
+  <data name="BusinessUserGroupDeleted" xml:space="preserve">
+    <value>Business User Group deleted.</value>
+  </data>
+  <data name="BusinessUserGroupDoesNotExist" xml:space="preserve">
+    <value>Business User Group does not exist.</value>
+  </data>
+  <data name="BusinessUserGroupNotCreated" xml:space="preserve">
+    <value>Business User Group could not be created!</value>
+  </data>
+  <data name="BusinessUserGroupNotDeleted" xml:space="preserve">
+    <value>Business User Group could not be deleted!</value>
+  </data>
+  <data name="BusinessUserGroupNotUpdated" xml:space="preserve">
+    <value>Business User Group could not be updated!</value>
+  </data>
+  <data name="BusinessUserGroupUpdated" xml:space="preserve">
+    <value>Business User Group successfully updated.</value>
+  </data>
+  <data name="BusinessUserNotAddedToGroup" xml:space="preserve">
+    <value>Business User could not be added to the Group(s)!</value>
+  </data>
+  <data name="BusinessUserNotCreated" xml:space="preserve">
+    <value>Business User could not be created!</value>
+  </data>
+  <data name="BusinessUserNotDeleted" xml:space="preserve">
+    <value>Business User could not be deleted!</value>
+  </data>
+  <data name="BusinessUserNotUpdated" xml:space="preserve">
+    <value>Business User could not be updated!</value>
+  </data>
+  <data name="BusinessUsersLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To add more users, please upgrade your package.</value>
+  </data>
+  <data name="BusinessUsersNotAddedInGroup" xml:space="preserve">
+    <value>Business group has been created but we couldn't add the users in it. Kindly add users from the users grid.</value>
+  </data>
+  <data name="BusinessUsersNotDeletedFromGroup" xml:space="preserve">
+    <value>Business Group successfully deleted but users could not be removed from group!</value>
+  </data>
+  <data name="BusinessUserUpdated" xml:space="preserve">
+    <value>Business User updated successfully.</value>
+  </data>
+  <data name="CalendarSyncedSuccessfully" xml:space="preserve">
+    <value>Your calendar has been successfully synced.</value>
+  </data>
+  <data name="CalendarSyncFailed" xml:space="preserve">
+    <value>Calendar Synchorization Failed.</value>
+  </data>
+  <data name="CardCharged" xml:space="preserve">
+    <value>Card successfully charged.</value>
+  </data>
+  <data name="CategoryNotEmpty" xml:space="preserve">
+    <value>Category can't be empty.</value>
+  </data>
+  <data name="CityNameLength" xml:space="preserve">
+    <value>City name can't exceed more than 50 characters.</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>Contact added successfully.</value>
+  </data>
+  <data name="ContactAddedToGroup" xml:space="preserve">
+    <value>Contact successfully added to group(s).</value>
+  </data>
+  <data name="ContactAlreadyBlocked" xml:space="preserve">
+    <value>Contact is already blocked.</value>
+  </data>
+  <data name="ContactAlreadyExists" xml:space="preserve">
+    <value>The contact you are trying to add already exists.</value>
+  </data>
+  <data name="ContactAlreadyNotBlocked" xml:space="preserve">
+    <value>Contact is already not blocked.</value>
+  </data>
+  <data name="ContactArchived" xml:space="preserve">
+    <value>Contact successfully Archived.</value>
+  </data>
+  <data name="ContactArchiveFailed" xml:space="preserve">
+    <value>Contact could not be Archived!</value>
+  </data>
+  <data name="ContactBlocked" xml:space="preserve">
+    <value>Contact successfully blocked.</value>
+  </data>
+  <data name="ContactDeleted" xml:space="preserve">
+    <value>Contact deleted successfully.</value>
+  </data>
+  <data name="ContactDeletedFromGroup" xml:space="preserve">
+    <value>Contact successfully removed from group(s).</value>
+  </data>
+  <data name="ContactDoesNotExist" xml:space="preserve">
+    <value>Contact does not exist.</value>
+  </data>
+  <data name="ContactGroupAdded" xml:space="preserve">
+    <value>Contact Group added successfully.</value>
+  </data>
+  <data name="ContactGroupDeleted" xml:space="preserve">
+    <value>Contact Group deleted successfully.</value>
+  </data>
+  <data name="ContactGroupNotAdded" xml:space="preserve">
+    <value>Contact Group could not be added!</value>
+  </data>
+  <data name="ContactGroupNotDeleted" xml:space="preserve">
+    <value>Contact Group could not be deleted!</value>
+  </data>
+  <data name="ContactGroupNotFound" xml:space="preserve">
+    <value>Contact Group not found!</value>
+  </data>
+  <data name="ContactGroupNotUpdated" xml:space="preserve">
+    <value>Contact Group could not be updated!</value>
+  </data>
+  <data name="ContactGroupUpdated" xml:space="preserve">
+    <value>Contact Group updated successfully.</value>
+  </data>
+  <data name="ContactNotAdded" xml:space="preserve">
+    <value>Contact could not be added!</value>
+  </data>
+  <data name="ContactNotBlocked" xml:space="preserve">
+    <value>Contact could not be blocked!</value>
+  </data>
+  <data name="ContactNotDeleted" xml:space="preserve">
+    <value>Contact could not be deleted!</value>
+  </data>
+  <data name="ContactNotFound" xml:space="preserve">
+    <value>Contact not found.</value>
+  </data>
+  <data name="ContactNotUnblocked" xml:space="preserve">
+    <value>Contact could not be blocked!</value>
+  </data>
+  <data name="ContactNotUpdated" xml:space="preserve">
+    <value>Contact could not be updated!</value>
+  </data>
+  <data name="ContactRestorationFailed" xml:space="preserve">
+    <value>Contact could not be Restored!</value>
+  </data>
+  <data name="ContactRestored" xml:space="preserve">
+    <value>Contact successfully Restored.</value>
+  </data>
+  <data name="ContactsAssignedToGroup" xml:space="preserve">
+    <value>Contacts successfully assigned to group.</value>
+  </data>
+  <data name="ContactsHaveNoEmail" xml:space="preserve">
+    <value>{{CONTACT_COUNT}} contacts in this group don't have Emails.</value>
+  </data>
+  <data name="ContactsHaveNoNumber" xml:space="preserve">
+    <value>{{CONTACT_COUNT}} contacts in this group don't have Phone Numbers.</value>
+  </data>
+  <data name="ContactsImportedFromGmail" xml:space="preserve">
+    <value>Contacts successfully imported from Gmail.</value>
+  </data>
+  <data name="ContactsImportMessageForPackage" xml:space="preserve">
+    <value>Since you have a {{PACKAGE_NAME}} subscription, only the first {{CONTACTS_COUNT}} contacts were added.</value>
+  </data>
+  <data name="ContactsLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To add more contacts, please upgrade your package.</value>
+  </data>
+  <data name="ContactsMarkedAsFavorite" xml:space="preserve">
+    <value>Contact(s) successfully marked as Favorite.</value>
+  </data>
+  <data name="ContactsMarkedAsNonFavorite" xml:space="preserve">
+    <value>Contact(s) successfully unmarked as Favorite.</value>
+  </data>
+  <data name="ContactsNotAssignedToGroup" xml:space="preserve">
+    <value>Contacts couldn't be assigned to group.</value>
+  </data>
+  <data name="ContactsNotImportedFromGmail" xml:space="preserve">
+    <value>Contacts could not be imported from Gmail!</value>
+  </data>
+  <data name="ContactsNotMarkedAsFavorite" xml:space="preserve">
+    <value>Contact(s) couldn't be marked as Favorite!</value>
+  </data>
+  <data name="ContactsNotMarkedAsNonFavorite" xml:space="preserve">
+    <value>Contact(s) couldn't be unmarked as Favorite!</value>
+  </data>
+  <data name="ContactsNotRestored" xml:space="preserve">
+    <value>Contacts couldn't be restored!</value>
+  </data>
+  <data name="ContactsRestored" xml:space="preserve">
+    <value>Contacts successfully restored.</value>
+  </data>
+  <data name="ContactUnblocked" xml:space="preserve">
+    <value>Contact unblocked successfully.</value>
+  </data>
+  <data name="ContactUpdated" xml:space="preserve">
+    <value>Contact updated successfully.</value>
+  </data>
+  <data name="CountryNotEmpty" xml:space="preserve">
+    <value>Country field must not be empty.</value>
+  </data>
+  <data name="CountyNotEmpty" xml:space="preserve">
+    <value>County must not be empty.</value>
+  </data>
+  <data name="CrispSettingsAdded" xml:space="preserve">
+    <value>Crisp Settings Added</value>
+  </data>
+  <data name="CrispSettingsUpdated" xml:space="preserve">
+    <value>Crisp Settings Updated</value>
+  </data>
+  <data name="CSVContactsImported" xml:space="preserve">
+    <value>Contacts successfully imported from file.</value>
+  </data>
+  <data name="DayNotEmpty" xml:space="preserve">
+    <value>Day cannot be empty.</value>
+  </data>
+  <data name="DefaultPaymentTemplateNotFound" xml:space="preserve">
+    <value>You do not have a default template of 'Payment' type!</value>
+  </data>
+  <data name="DescriptionLength" xml:space="preserve">
+    <value>Description can't exceed more than 750 characters.</value>
+  </data>
+  <data name="EmailAlreadyExists" xml:space="preserve">
+    <value>The provided Business User Email is already in use. Kindly provide a unique one.</value>
+  </data>
+  <data name="EmailDoesNotExist" xml:space="preserve">
+    <value>The provided email does not exist.</value>
+  </data>
+  <data name="EmailFormat" xml:space="preserve">
+    <value>Email format is invalid!</value>
+  </data>
+  <data name="EmailLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To send more emails, please upgrade your package.</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Email succesfully sent.</value>
+  </data>
+  <data name="EmailsNotSent" xml:space="preserve">
+    <value>Your Email Campaign couldn't be sent!</value>
+  </data>
+  <data name="EmailsSentSuccessfully" xml:space="preserve">
+    <value>Your Email Campaign shooted successfully</value>
+  </data>
+  <data name="EmailSubscriptionMessage" xml:space="preserve">
+    <value>You're receiving this email because you signed up for updates about Xoopah Platform.</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>An error occured, please try again later.</value>
+  </data>
+  <data name="FailedToAddCrispSettings" xml:space="preserve">
+    <value>Failed to add Crisp Settings</value>
+  </data>
+  <data name="FailedToUpdateCrispSettings" xml:space="preserve">
+    <value>Failed to update Crisp Settings</value>
+  </data>
+  <data name="ForgotPasswordEmailSent" xml:space="preserve">
+    <value>An email has been sent to you at {{USER_EMAIL}}. Please click the link in the email to start the password change process.</value>
+  </data>
+  <data name="GMBConnectionNotRemoved" xml:space="preserve">
+    <value>Error Encountered. Please try again later!</value>
+  </data>
+  <data name="GMBConnectionRemoved" xml:space="preserve">
+    <value>Google My Business connection removed.</value>
+  </data>
+  <data name="ImportFailed" xml:space="preserve">
+    <value>{{ITEM_NAME}} could not be imported!</value>
+  </data>
+  <data name="ImportSuccessful" xml:space="preserve">
+    <value>{{ITEM_NAME}} successfully imported.</value>
+  </data>
+  <data name="InquiriesDeleted" xml:space="preserve">
+    <value>Inquiries(s) Deleted Successfully.</value>
+  </data>
+  <data name="InquiriesNotDeleted" xml:space="preserve">
+    <value>Inquirie(s) couldn't be deleted!</value>
+  </data>
+  <data name="InquiryAdded" xml:space="preserve">
+    <value>Inquiry added Successfully.</value>
+  </data>
+  <data name="InquiryDeleted" xml:space="preserve">
+    <value>Inquiry successfully Deleted.</value>
+  </data>
+  <data name="InquiryNotAdded" xml:space="preserve">
+    <value>Inquiry could not be added!</value>
+  </data>
+  <data name="InquiryNotDeleted" xml:space="preserve">
+    <value>Inquiry couldn't be Deleted!</value>
+  </data>
+  <data name="InquiryNotResolved" xml:space="preserve">
+    <value>Inquiry couldn't be marked as Resolved!</value>
+  </data>
+  <data name="InquiryNotUpdated" xml:space="preserve">
+    <value>Inquiry couldn't be Updated!</value>
+  </data>
+  <data name="InquiryReplyNotSent" xml:space="preserve">
+    <value>Reply couldn't be sent!</value>
+  </data>
+  <data name="InquiryReplySent" xml:space="preserve">
+    <value>Reply sent to inquiry successfully.</value>
+  </data>
+  <data name="InquiryResolved" xml:space="preserve">
+    <value>Inquiry successfully Resolved.</value>
+  </data>
+  <data name="InquiryUpdated" xml:space="preserve">
+    <value>Inquiry successfully Updated.</value>
+  </data>
+  <data name="InvalidClosingTime" xml:space="preserve">
+    <value>Provide a valid closing time in HH:MM format.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid Credentials!</value>
+  </data>
+  <data name="InvalidOpeningTime" xml:space="preserve">
+    <value>Provide a valid opening time in HH:MM format.</value>
+  </data>
+  <data name="InvalidPaymentLink" xml:space="preserve">
+    <value>Invalid payment link!</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Login Failed!</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>Login succeeded.</value>
+  </data>
+  <data name="NameLength" xml:space="preserve">
+    <value>Name can't exceed more than 100 characters.</value>
+  </data>
+  <data name="NoActivityFound" xml:space="preserve">
+    <value>No Activity found.</value>
+  </data>
+  <data name="NoBookingsFound" xml:space="preserve">
+    <value>No Bookings Found!</value>
+  </data>
+  <data name="NoCategoryFound" xml:space="preserve">
+    <value>No Category found.</value>
+  </data>
+  <data name="NoContactsFound" xml:space="preserve">
+    <value>No Contacts Found!</value>
+  </data>
+  <data name="NoContactsInGroup" xml:space="preserve">
+    <value>No contacts exist against provided group.</value>
+  </data>
+  <data name="NoCountryFound" xml:space="preserve">
+    <value>No Country found!</value>
+  </data>
+  <data name="NoCountyFound" xml:space="preserve">
+    <value>No County found.</value>
+  </data>
+  <data name="NoEmailTemplateFound" xml:space="preserve">
+    <value>No Email Template Found Against Provided Email Type.</value>
+  </data>
+  <data name="NoInquiriesFound" xml:space="preserve">
+    <value>No Inquiries found!</value>
+  </data>
+  <data name="NoInquiryFound" xml:space="preserve">
+    <value>No Inquiry Found!</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>No record found.</value>
+  </data>
+  <data name="NoStateFound" xml:space="preserve">
+    <value>No State found!</value>
+  </data>
+  <data name="NoSubscription" xml:space="preserve">
+    <value>The Business has no subscription.</value>
+  </data>
+  <data name="NoTableFoundForTemplate" xml:space="preserve">
+    <value>No Table found against provided Template!</value>
+  </data>
+  <data name="NotValidStateCode" xml:space="preserve">
+    <value>Not a valid state code!</value>
+  </data>
+  <data name="NotValidUSNumber" xml:space="preserve">
+    <value>Not a valid US number!</value>
+  </data>
+  <data name="NoVariablesFoundForTable" xml:space="preserve">
+    <value>No Variables found against provided Table Id!</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>Password Changed Successfully.</value>
+  </data>
+  <data name="PasswordNotCorrect" xml:space="preserve">
+    <value>Password is not correct!</value>
+  </data>
+  <data name="PasswordPattern" xml:space="preserve">
+    <value>Password must contain atleast a number, a special character, and both lowercase and uppercase letters. Also, it's length must be of minimun 8 characters.</value>
+  </data>
+  <data name="PaymentFailed" xml:space="preserve">
+    <value>An error occured while processing payment. Please check card details and try again</value>
+  </data>
+  <data name="PaymentLinkNotSent" xml:space="preserve">
+    <value>Your Payment Link was not sent</value>
+  </data>
+  <data name="PaymentLinkSent" xml:space="preserve">
+    <value>Payment Link was sent Successfully!</value>
+  </data>
+  <data name="PaymentNotCollectedDueToEmailsLimit" xml:space="preserve">
+    <value>You can't collect a payment because your email's limit is reached.</value>
+  </data>
+  <data name="PaymentNotCollectedDueToSMSLimit" xml:space="preserve">
+    <value>You can't collect a payment because your sms limit is reached.</value>
+  </data>
+  <data name="PaymentsLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To collect more payments, please upgrade your package.</value>
+  </data>
+  <data name="PaymentSuccess" xml:space="preserve">
+    <value>Payment processed successfully!</value>
+  </data>
+  <data name="RecordsInserted" xml:space="preserve">
+    <value>Records successfully inserted.</value>
+  </data>
+  <data name="ReviewReplyDeleted" xml:space="preserve">
+    <value>Reply Deleted Succesfully</value>
+  </data>
+  <data name="ReviewReplyDeleteFailed" xml:space="preserve">
+    <value>Failed to Delete Reply</value>
+  </data>
+  <data name="ReviewReplyFailed" xml:space="preserve">
+    <value>Something went wrong!</value>
+  </data>
+  <data name="ReviewReplySuccessful" xml:space="preserve">
+    <value>Reply sent successfully!</value>
+  </data>
+  <data name="ServiceMinutesNotEmpty" xml:space="preserve">
+    <value>Service Minutes must not be empty.</value>
+  </data>
+  <data name="ServicesLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To add more services, please upgrade your package.</value>
+  </data>
+  <data name="SingleSMSNotSent" xml:space="preserve">
+    <value>Message send failed</value>
+  </data>
+  <data name="SingleSMSSent" xml:space="preserve">
+    <value>Message was sent Succesfully</value>
+  </data>
+  <data name="SMSLimitReached" xml:space="preserve">
+    <value>You have reached the maximum limit. To send more sms, please upgrade your package.</value>
+  </data>
+  <data name="SMSNotSent" xml:space="preserve">
+    <value>Messages couldn't be sent!</value>
+  </data>
+  <data name="SMSSent" xml:space="preserve">
+    <value>All messages were sent Succesfully</value>
+  </data>
+  <data name="SMSTemplateNotFound" xml:space="preserve">
+    <value>No SMS Template Found</value>
+  </data>
+  <data name="TemplateTypesNotFound" xml:space="preserve">
+    <value>There are no Template Types!</value>
+  </data>
+  <data name="TimezoneNotEmpty" xml:space="preserve">
+    <value>Timezone must not be empty!</value>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>You are not authorized to perform this operation!</value>
+  </data>
+  <data name="UniqueUser" xml:space="preserve">
+    <value>User is Unique.</value>
+  </data>
+  <data name="UnsyncedWithGoogleCalendar" xml:space="preserve">
+    <value>Unsyncing with Google Calendar succeeded.</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>User Email already exists!</value>
+  </data>
+  <data name="UserCannotDeleteItself" xml:space="preserve">
+    <value>Error! You cannot delete yourself!</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>User successfully deleted.</value>
+  </data>
+  <data name="UserDoesNotExists" xml:space="preserve">
+    <value>User with email {{USER_EMAIL}} does not exist.</value>
+  </data>
+  <data name="UserNotActive" xml:space="preserve">
+    <value>You can't login because your account is deactivated.</value>
+  </data>
+  <data name="UserNotCreated" xml:space="preserve">
+    <value>User could not be created!</value>
+  </data>
+  <data name="UserNotDeleted" xml:space="preserve">
+    <value>User deleteion failed!</value>
+  </data>
+  <data name="UserNotUpdated" xml:space="preserve">
+    <value>User information could not be updated!</value>
+  </data>
+  <data name="UsersAssignedToGroup" xml:space="preserve">
+    <value>Users successfully assigned to group.</value>
+  </data>
+  <data name="UsersNotAssignedToGroup" xml:space="preserve">
+    <value>Users couldn't be assigned to group.</value>
+  </data>
+  <data name="UserTypeIdInvalid" xml:space="preserve">
+    <value>UserType is invalid!</value>
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>User information successfully updated.</value>
+  </data>
+  <data name="ValidBookingTime" xml:space="preserve">
+    <value>Select a valid booking time.</value>
+  </data>
+  <data name="ValidPyamentLink" xml:space="preserve">
+    <value>Valid payment link.</value>
+  </data>
+  <data name="WebsiteURLNotEmpty" xml:space="preserve">
+    <value>Website URL can't be empty.</value>
+  </data>
+  <data name="WorkingDetailsAdded" xml:space="preserve">
+    <value>Business Working Details added successfully.</value>
+  </data>
+  <data name="WorkingDetailsDeleted" xml:space="preserve">
+    <value>Business Working Details deleted successfully.</value>
+  </data>
+  <data name="WorkingDetailsNotAdded" xml:space="preserve">
+    <value>Business Working Details could not be added!</value>
+  </data>
+  <data name="WorkingDetailsNotDeleted" xml:space="preserve">
+    <value>Business Working Details could not be deleted!</value>
+  </data>
+  <data name="WorkingDetailsNotFound" xml:space="preserve">
+    <value>Business Working Details not found.</value>
+  </data>
+  <data name="WorkingDetailsNotUpdated" xml:space="preserve">
+    <value>Business Working Details could not be updated!</value>
+  </data>
+  <data name="WorkingDetailsUpdated" xml:space="preserve">
+    <value>Business Working Details updated successfully.</value>
+  </data>
+</root>

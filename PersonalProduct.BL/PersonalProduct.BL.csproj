@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>PersonalCompany.PersonalProduct.BL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sentry" Version="3.19.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalProduct.DAL\PersonalProduct.DAL.csproj" />
+    <ProjectReference Include="..\PersonalProduct.Models\PersonalProduct.Models.csproj" />
+    <ProjectReference Include="..\PersonalProduct.Utility\PersonalProduct.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
